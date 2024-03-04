@@ -16,7 +16,7 @@ More instructions and details about these pipelines, processes, resources, tools
 
 <br>
 
-### Cloud
+### Cloud usage
 
 The project has been developed in the cloud using Google Cloud Platform as a sole resource/service provider, and these **resources have been provisioned, managed and deployed** via **Terraform as Infrastructure as Code tool**.
 
