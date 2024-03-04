@@ -132,9 +132,6 @@ Once we've passed all the values, we can run the following commands in our bash 
 
       terraform apply
 
-<p align="center">
-<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-cloud-run.png"  width="88%" height="88%">
-
 There is no auto-confirmation in Terraform when scripting by CLI, so we will need to type `yes` when applying changes:
 
 <p align="center">
@@ -166,8 +163,11 @@ Once all this is done, we are ready to run in our bash terminal:
       terraform apply
 
 
-When going to Google Run, we see a new service :
 
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-cloud-run.png"  width="88%" height="88%">
+
+When going to Google Run, we see a new service :
 
 
 <p align="center">
