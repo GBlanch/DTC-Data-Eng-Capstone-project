@@ -67,18 +67,18 @@ FROM
 
 ### Transformations utilizing Mage
 
-One (1) transformation block exist in each of the two pipelines created. All these transformations were executed utilizing Pandas and Numpy libraries, and these were distributed as follows:
+We can see that transformation blocks exist in each of the two pipelines created. All these transformations were executed utilizing Pandas and Numpy libraries, and these were distributed as follows:
 
-First batch pipeline
+- First batch pipeline
 
-- unifying classes in the `weight` category
-- creation of two different categories for `systolic` and `diastolic pressure` 
-- deletion of the unified `blood pressure` category
+  - unifying classes in the `weight` category
+  - creation of two different categories for `systolic` and `diastolic pressure` 
+  - deletion of the unified `blood pressure` category
 
-Second batch pipeline
+- Second batch pipeline
 
-- parsing all the letters of the categories as lowercase
-- dropped the category `blood_pressure` which contains 2 two values separated by a slash
+  - parsing all the letters of the categories as lowercase
+  - dropped the category `blood_pressure` which contains 2 two values separated by a slash
 
 
 ### Dashboard
