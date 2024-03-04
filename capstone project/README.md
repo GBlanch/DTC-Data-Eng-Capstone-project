@@ -182,7 +182,7 @@ Now we're ready to build and develop our pipelines in this virtual environment.
 
 As said in the introductory section of this markdown file, for demonstration purposes, you will note that two pipelines have been created to perform different transformations.
 
-The Python blocks that were used in the two pipelines mentioned in the section []() can be found in [this directory]()
+The Python blocks that were used in the two pipelines mentioned in the section []() can be found in [this directory](https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/tree/main/capstone%20project/workflow%20orchestration)
 
 These are some of the screenshots as a sample of Mage GUI:
 
