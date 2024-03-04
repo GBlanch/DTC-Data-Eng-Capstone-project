@@ -13,6 +13,7 @@ The aim of these project is to analyze a dataset on sleep health and lifestyle c
 For that end, the structure of an OLAP approach/system was followed. This is to say: beginning by loading the dataset from a remote repository until rendering of a dashboard for analytic purposes. 
 
 More instructions and details about these pipelines, processes, resources, tools utilized and project reproducibility can be found within the sections that follow from here.
+<br>
 
 ### Cloud
 
