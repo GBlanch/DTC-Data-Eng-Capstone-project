@@ -188,7 +188,7 @@ These are some of the screenshots as a sample of Mage GUI:
 
 (Mage screenshots)
 
-  ### Alternative (local) method proposed: 
+  #### Alternative (local) method proposed: 
 
   If preferred, instead of running and deploying from within the cloud, you can also run Mage locally following this steps:
 
