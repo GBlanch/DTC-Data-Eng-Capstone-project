@@ -97,9 +97,7 @@ Also it can be noticed that `Nurses, Doctors and Engineers` compose more than th
 
 ### Reproducibility
 
-I tried to give concise instruction on how I developed and deployed this project. I also provide some instructions on how to develop and execute the same process locally.
-
-Here are the instructions:
+I tried to provide concise instructions on how I developed and deployed this project. If you're encountering any trouble while reproducing this project, feel free to ping me and tell me about it:
 
 #### Creating GCS Bucket:
 
@@ -152,17 +150,17 @@ Next we are to orchestrate an end-to-end-pipeline from our public repository to 
 
 We clone 
 
-```git clone https://github.com/mage-ai/mage-ai-terraform-templates.git```
+      git clone https://github.com/mage-ai/mage-ai-terraform-templates.git
 
 After cd-ing into `gcp` directory, we can open VS Code and adjust the main and variable.tf files. Basically, we will add our credentials the same way we did when creating our bucket with Terraform. The ones used fot this project are located within this folder [____]()
 
-We also have to enable Cloud Filestore API
+We also have to configure and enable Cloud Filestore API
 
 Once all this is done, we are ready to run in our bash terminal:
 
-```terraform init```
+      terraform init
 
-```terraform apply```
+      terraform apply
 
 
 When going to Google Run, we see a new service :
@@ -172,7 +170,7 @@ When going to Google Run, we see a new service :
 
 Before opening the URL of this instance in our local machine, it's safer to whitelist our IP so that we can restrict the access to these service.
 
-Now we're ready too access Mage UI via these 
+Now we're ready to build and develop our pipelines in this virtual environment.
 
 As said in the introductory section of this markdown file, for demonstration purposes, you will note that two pipelines have been created to perform different transformations.
 
@@ -188,28 +186,28 @@ These are some of the screenshots as a sample of Mage GUI:
 
   clone the repo from Mage github:
 
-  ```git clone https://github.com/mage-ai/mage-zoomcamp.git mage-zoomcamp```
+      git clone https://github.com/mage-ai/mage-zoomcamp.git mage-zoomcamp
 
   After cd-ing into mage-zoomcamp directory, we copy `dev.env` file into `.env` file so that we can name it in our gitignore file:
 
-  ```cp dev.env .env```
+        cp dev.env .env
 
   
 
   Then we build and start the container with the following commands, respectively:
 
-  ```docker compose build```
+        docker compose build
 
-  ```docker compose up```
+        docker compose up
 
 
   In case we get a notification that there's a latest version of the `mageai` image, we just need to run 
 
-  ```docker pull mageai/mageai:latest```
+        docker pull mageai/mageai:latest
 
   In any case, it is always advisable to run docker scout to analyze the images we're about to compose up:
 
-  ```docker scout view```
+        docker scout view
 
   Opening our localhost:6789 should take you to the main Mage UI. The rest of the block creation and configuration is the same as the process we have just described in our virtual instance. The main difference would be that the pipelines would be developed and run locally, instead of using a VM.
 
@@ -241,10 +239,7 @@ FROM
 
 #### LookerStudio
 
-Once we have imported these tables into LookerStudio, we will build and adjust all the dashboard using LookerStudio GUI. The brief result was the following :
-
-```link to public lookerstudio```
-
+Once we have imported these tables into LookerStudio, we will build and adjust all the dashboard using LookerStudio GUI. The brief result was presented in the section [Dashboard](#dashboard).
 
 
 
