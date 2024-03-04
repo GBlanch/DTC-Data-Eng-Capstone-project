@@ -134,13 +134,14 @@ Once we've passed all the values, we can run the following commands in our bash 
 
 There is no auto-confirmation in Terraform when scripting by CLI, so we will need to type `yes` when applying changes:
 
-
-(terraform-applied-png)
-
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-gcs-bucket.png"  width="88%" height="88%">
 
 And so our bucket `sleep-health-de-bucket` was created:
 
-(bucket-png)
+
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-gcs-bucket.png"  width="88%" height="88%">
 
 
 #### Transformation stage 
@@ -165,9 +166,14 @@ Once all this is done, we are ready to run in our bash terminal:
 When going to Google Run, we see a new service :
 
 
-(Cloud Run screenshot)
+
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-cloud-run-1.png"  width="88%" height="88%">
 
 Before opening the URL of this instance in our local machine, it's safer to whitelist our IP so that we can restrict the access to these service.
+
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/mage/running-in-vm.png"  width="88%" height="88%">
 
 Now we're ready to build and develop our pipelines in this virtual environment.
 
@@ -191,15 +197,11 @@ These are some of the screenshots as a sample of Mage GUI:
 
         cp dev.env .env
 
-  
-
   Then we build and start the container with the following commands, respectively:
 
         docker compose build
 
         docker compose up
-
-
   In case we get a notification that there's a latest version of the `mageai` image, we just need to run 
 
         docker pull mageai/mageai:latest
