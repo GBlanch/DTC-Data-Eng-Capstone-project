@@ -86,9 +86,8 @@ Second batch pipeline
 The dashboard was done using Looker Studio, an it was elaborated rather briefly as it can be told, with just 2 tiles, and these can be seen [in this GCP link]()
 
 
-(screenshot of dashboard)
-
-
+<p align="center">
+<img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/2-tile-dashboard.png"  width="88%" height="88%">
 
 We found that amongst the small sample of the population, `Nurses, Teaches, Sales person and Scientist` are the occupations that tend to have some kind of sleeping disorder. 
 
