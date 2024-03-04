@@ -84,6 +84,7 @@ We can see that transformation blocks exist in each of the two pipelines created
   - parsing all the letters of the categories as lowercase
   - dropped the category `blood_pressure` which contains 2 two values separated by a slash
 
+<br>
 
 ### Dashboard
 
@@ -97,6 +98,7 @@ We found that amongst the small sample of the population, `Nurses, Teaches, Sale
 
 Also it can be noticed that `Nurses, Doctors and Engineers` compose more than the half of the professions in the dataset. Having done some EDA prior to executing and documenting this project would have helped notice and tackle this issue.
 
+<br>
 
 ### Reproducibility
 
@@ -147,6 +149,7 @@ And so our bucket `sleep-health-de-bucket` was created:
 <p align="center">
 <img src="https://github.com/GBlanch/DTC-Data-Engineering-Zoomcamp/blob/main/capstone%20project/assets/terraform/terraform-gcs-bucket.png"  width="88%" height="88%">
 
+<br>
 
 #### Transformation stage 
 
@@ -192,6 +195,8 @@ These are some of the screenshots as a sample of Mage GUI:
 
 (Mage screenshots)
 
+<br>
+
   #### Alternative (local) method proposed: 
 
   If preferred, instead of running and deploying from within the cloud, you can also run Mage locally following this steps:
@@ -219,6 +224,7 @@ These are some of the screenshots as a sample of Mage GUI:
 
   Opening our localhost:6789 should take you to the main Mage UI. The rest of the block creation and configuration is the same as the process we have just described in our virtual instance. The main difference would be that the pipelines would be developed and run locally, instead of using a VM.
 
+<br>
 
 #### Bigquery
 
@@ -244,6 +250,8 @@ SELECT
 FROM
   `data-eng-zoomcamp-cohort24.sleep_health_dataset.data_table`;
 ```
+
+<br>
 
 #### LookerStudio
 
