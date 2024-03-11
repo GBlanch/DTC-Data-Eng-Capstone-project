@@ -2,6 +2,7 @@
 
 work in progress
 
+<<<<<<< HEAD
 ## Table of Contents
 
 - [DTC-Data-Engineering-zoomcamp-capstone](#dtc-data-engineering-zoomcamp-capstone)
@@ -454,6 +455,9 @@ Once we have imported these tables into LookerStudio, we will build and adjust a
 =======
 
 [Back to Table of Contents](#table-of-contents)
+=======
+Refer to the repo [DTC-Data-Eng-Zoomcamp-capstone](https://github.com/GBlanch/Data-Eng-Zoomcamp-capstone)
+>>>>>>> 06f269abfdad1c4ce6e7b6ed7cc158665a4f7eb4
 
 <br>
 >>>>>>> 878c135f9e893645ad5960f9c0516885f7ccb60f
