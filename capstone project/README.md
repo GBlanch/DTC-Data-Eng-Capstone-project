@@ -2,7 +2,6 @@
 
 work in progress
 
-<<<<<<< HEAD
 ## Table of Contents
 
 - [DTC-Data-Engineering-zoomcamp-capstone](#dtc-data-engineering-zoomcamp-capstone)
